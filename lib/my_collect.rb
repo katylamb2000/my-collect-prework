@@ -23,7 +23,7 @@ languages =   ['ruby', 'javascript', 'python', 'objective-c']
  
  def lang (languages)
  my_collect do |language|
-    puts language.upcase
+    puts my_collect.upcase
     end
 end
  

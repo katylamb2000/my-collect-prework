@@ -22,7 +22,7 @@ def students(students)
 languages =   ['ruby', 'javascript', 'python', 'objective-c']
  
  def lang(languages)
- my_collect(languages) do |language|
+ my_collect do |language|
     puts language.upcase
     end
 end
